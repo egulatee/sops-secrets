@@ -30,9 +30,9 @@
   "homepage": "https://github.com/egulatee/sops-secrets#readme",
   "devDependencies": {
     "@types/node": "^20.0.0",
-    "@vitest/coverage-v8": "^1.0.0",
+    "@vitest/coverage-v8": "^4.0.18",
     "typescript": "^5.0.0",
-    "vitest": "^1.0.0"
+    "vitest": "^4.0.18"
   },
   "engines": {
     "node": ">=18"
