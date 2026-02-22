@@ -1,0 +1,40 @@
+{
+  "name": "@egulatee/sops-secrets",
+  "version": "0.1.0",
+  "description": "Load SOPS-encrypted secrets for use in Pulumi TypeScript projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pulumi",
+    "sops",
+    "age",
+    "secrets",
+    "infrastructure-as-code",
+    "devops"
+  ],
+  "author": "Eric Gulatee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egulatee/sops-secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/egulatee/sops-secrets/issues"
+  },
+  "homepage": "https://github.com/egulatee/sops-secrets#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
