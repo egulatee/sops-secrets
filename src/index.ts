@@ -10,12 +10,13 @@
  * ## Usage
  *
  * ```typescript
- * import { loadSecrets, loadKubeconfig } from "@egulatee/sops-secrets";
+ * import { loadSecrets } from "@egulatee/sops-secrets";
  *
  * const secrets = loadSecrets("cloudflared");
  * // secrets.cloudflare.account_id, secrets.cloudflare.zone_id, etc.
  *
- * const kubeconfig = loadKubeconfig();
+ * // kubeconfig is a regular secret — no special function needed
+ * const kubeconfig = loadSecrets("kubeconfig").kubeconfig;
  * ```
  *
  * ## Environment Variables
